@@ -18,7 +18,7 @@ Additionally, the project includes a dashboard with a sidebar containing options
 
 
 ## Setup and Installation
-- Prerequisites
+Prerequisites
 - Node.js installed
 - Firebase account and Firebase project
   
@@ -46,5 +46,5 @@ The application will be available at http://localhost:3000.
 - Go to the Firebase Console.
 - Enable Email/Password Authentication in the Authentication section.
 - Add the following credentials to the Firebase console under the "Users" tab:
-    Username: admin@123.com
-    Password: admin@123
+    - Username: admin@123.com
+    - Password: admin@123
