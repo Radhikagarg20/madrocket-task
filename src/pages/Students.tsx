@@ -15,37 +15,33 @@ interface Student {
   id: string;
   firstName: string;
   lastName: string;
+  email: string;
+  rollNumber: string;
   class: string;
   section: string;
-  rollNumber: string;
   dateOfBirth: string;
   gender: string;
+  phoneNumber: string;
   address: string;
   city: string;
   state: string;
   pinCode: string;
-  phoneNumber: string;
-  email: string;
-  parentName: string;
-  parentPhone: string;
 }
 
 const initialFormData: Omit<Student, "id"> = {
   firstName: "",
   lastName: "",
+  email: "",
+  rollNumber: "",
   class: "",
   section: "",
-  rollNumber: "",
   dateOfBirth: "",
   gender: "",
+  phoneNumber: "",
   address: "",
   city: "",
   state: "",
-  pinCode: "",
-  phoneNumber: "",
-  email: "",
-  parentName: "",
-  parentPhone: "",
+  pinCode: ""
 };
 
 export default function Students() {
