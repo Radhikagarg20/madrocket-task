@@ -15,3 +15,36 @@ Additionally, the project includes a dashboard with a sidebar containing options
 - Form validation.
 - Simple and elegant design using the [Material Kit React template](https://github.com/minimal-ui-kit/material-kit-react).
 - Deploy the website on any hosting service.
+
+
+## Setup and Installation
+- Prerequisites
+- Node.js installed
+- Firebase account and Firebase project
+  
+## Steps to Run Locally
+1. Clone this repository:
+git clone https://github.com/Radhikagarg20/madrocket-task.git
+
+2. Navigate to the project directory:
+cd madrocket-task
+
+3. Install dependencies:
+npm install
+
+4. Set up Firebase:
+- Create a Firebase project at Firebase Console.
+- Add Firebase Authentication and Firestore.
+- Copy the Firebase config values and paste them in src/firebase/firebaseConfig.js.
+
+5. Run the project locally:
+npm start
+
+The application will be available at http://localhost:3000.
+
+## Firebase Authentication Setup
+- Go to the Firebase Console.
+- Enable Email/Password Authentication in the Authentication section.
+- Add the following credentials to the Firebase console under the "Users" tab:
+    Username: admin@123.com
+    Password: admin@123
