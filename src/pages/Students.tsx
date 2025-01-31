@@ -191,7 +191,7 @@ export default function Students() {
                         <Edit className="h-5 w-5" />
                       </button>
                     </Link>
-                    <button onClick={() => handleDelete(student.id)} className="text-red-600 hover:text-red-900">
+                    <button onClick={() => handleDelete(student.id)} className="text-blue-600 hover:text-red-900">
                       <Trash2 className="h-5 w-5" />
                     </button>
                   </td>
